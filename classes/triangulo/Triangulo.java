@@ -1,17 +1,17 @@
 public class Triangulo {
-    float lado1;
-    float lado2;
-    float lado3;
-    String desc;
+    private float lado1;
+    private float lado2;
+    private float lado3;
+    private String desc;
 
-    void inicializa(float l1, float l2, float l3, String d){
+    public void inicializa(float l1, float l2, float l3, String d){
         lado1 = l1;
         lado2 = l2;
         lado3 = l3;
         desc = d;
     }
     
-    float perimetro(){
+    public float perimetro(){
         return lado1 + lado2 + lado3;
     }
 }
