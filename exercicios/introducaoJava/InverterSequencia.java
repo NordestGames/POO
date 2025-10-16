@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class InverterSequencia {
     public static void main(String[] args) {
         // Escreva um programa que receba um número de 3 dígitos no formato CDU (Centena,Dezena e Unidade) e, 
-        // utilizando operadores aritméticos, armazene cada dígito em umavariável de tipo inteiro. 
+        // utilizando operadores aritméticos, armazene cada dígito em uma variável de tipo inteiro. 
         // Por fim, reescreva o número no formato UCD em outra variávelde tipo inteiro e o imprima. 
         // Exemplo: 123 deve ser reescrito como 312.
 
